@@ -1,0 +1,124 @@
+GENERAL
+* {
+  box-sizing: border-box;
+}
+/* .app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items:center
+} */
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+}
+app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* ************************************************************ */
+/* -----------$$$$$$$$$$$$$$$$$----------HEADER------------- */
+.search-container input {
+  width: 800px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+header img {
+  width: 80px;
+  margin: 10px 30px;
+}
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0;
+  width: 1280px;
+}
+.header-button {
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-family: Maison Neue;
+  font-size: 12px;
+  height: 30px;
+  outline: none;
+  width: 115px;
+}
+
+
+/* `*****************CONTAINER*********************** */
+.home-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+  width: 1280px;
+}
+.card-container {
+  cursor: pointer;
+  padding: 0 6px 16px;
+  width: 235px;
+}
+
+/* ----------------INPUT--------------------------------- */
+ input {
+   font-size: 16px;
+   height: 45px;
+   margin: 10px;
+   text-align: center;
+
+ }
+
+ input[type="submit"],
+ button {
+   background-color: #2cb1ba;
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 16px;
+   height: 45px;
+   margin: 10px;
+   outline: none;
+ }
+
+ /* ------------------------LOGIN ----------- SIGNUP */
+.signup-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 275px;
+
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+margin: auto;
+    width: 275px;
+  }
+
+
+  /* -----------PUBLISH---------------------- */
+     .publish-container {
+       display: flex;
+       flex-direction: row;
+       margin: 0 auto;
+       width: 1000px;
+       justify-content: center;
+     }
+       
+.offer-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 30px;
+  width: 1280px;
+}
